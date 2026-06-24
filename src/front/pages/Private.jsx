@@ -68,12 +68,6 @@ export const Private = () => {
                             <span className="text-muted" style={{ fontSize: "0.8125rem" }}>Estado</span>
                             <span className="text-success fw-medium">Activo ✓</span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center px-0">
-                            <span className="text-muted" style={{ fontSize: "0.8125rem" }}>Token</span>
-                            <code style={{ fontSize: "0.75rem", color: "#6c757d" }}>
-                                {store.token?.slice(0, 28)}…
-                            </code>
-                        </li>
                     </ul>
 
                     <button
